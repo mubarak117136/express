@@ -60,13 +60,13 @@
         <tr>
             <td>{{ i.trip_description }}</td>
             <td>{{ i.trip_earn_total }}</td>
-
         </tr>
         {% endfor %}
     <tr>
         <td>Totall</td>
-        <td>Totall</td>
+        <td>{{ total_earn.trip_earn__sum }}</td>
     </tr>
+
     </tbody>
 
 
